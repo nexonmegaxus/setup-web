@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <div class="heading">WELCOME TO MY SETUP!</div>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">MOUSE</h4>
+                <p class="item">DA Luna Honey - Pink Edition</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">KEYBS</h4>
+                <p class="item">SADES K10 - Angel Edition</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>WELCOME TO MY SETUP!</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="https://www.instagram.com/jossiaa_/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.youtube.com/channel/UCvrUYfXIEhhcDnVDD2N_yrA" target="_blank">Youtube</a></li>
+                <li><a href="https://github.com/nexonmegaxus" target="_blank">Github</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">🖱️</div>
+                <h3>Mouse</h3>
+                <p>My mouse is a <a href="https://www.digitalalliance.co.id/da-gaming-mouse-luna-honey-pink/" target="_blank">Digital Alliance Luna Honey - Pink Edition</a>. This gaming mouse is a lightweight mouse. It has 7 buttons and a DPI of up to 6400. And, this is a RGB mouse. So its a very good choice!</p>
+            </div>
+            <div class="service">
+                <div class="icon">⌨️</div>
+                <h3>Keyboard</h3>
+                <p>My keyboard is <a href="https://www.sades.co.id/gaming/keyboard/k10-full-pink-2/" target="_blank">SADES K10 - Angel Edition</a>. It is a powerful gaming mechanical keyboard with blue switches. With Ergonomic design this mechanical keyboard is sure to give you a comfortable using experience!
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon">🎧</div>
+                <h3>Headset</h3>
+                <p>My headset is <a href="https://www.fantechworld.com/visage-ii-hg17s/" target="_blank">FANTECH VISAGE II</a>. This is a lightweight and durable headset. With only 264gr weight, it still flexible and incredibly durable. It has been tested extensively to withstand the rigors of pro-gaming!</p>
+            </div>
+            <div class="service">
+                <div class="icon">🖥️</div>
+                <h3>Monitor</h3>
+                <p>My monitor is <a href="https://www.spc-indonesia.com/product-detail/117" target="_blank">SPC PRO SM 24</a>. It have 23.8 inch panel size, IPS display, and 3ms response time. It's a very very good gaming monitor, because this monitor also have 75HZ refresh rate and 16:9 aspect ratio! </p>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="gallery/1.jpg" alt="">
+            <img src="gallery/2.jpg" alt="">
+            <img src="gallery/3.jpg" alt="">
+            <img src="gallery/4.jpg" alt="">
+            <img src="gallery/5.jpg" alt="">
+            <img src="gallery/6.jpg" alt="">
+            <img src="gallery/7.jpg" alt="">
+            <img src="gallery/8.jpg" alt="">
+        </section>
+    </div>
+    <script>
+const menuToggle = document.querySelector ('.menu-toggle input');
+const nav = document.querySelector ('nav ul');
+
+menuToggle.addEventListener('click', function(){
+    nav.classList.toggle('slide');
+});
+    </script>
+</body>
+</html>
