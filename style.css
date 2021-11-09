@@ -131,11 +131,6 @@ header {
     transition: all 0.5s;
 }
 
-a:hover {
-    font-size: larger;
-    transform: rotate(45deg);
-}
-
 /* Hamburger Menu Animation */
 .menu-toggle span:nth-child(2) {
     transform-origin: 0 0;
